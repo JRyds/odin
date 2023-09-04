@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Odin Hangman OOP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/enumerables_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javascript-exercises" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/odin-Etch-A-Sketch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/odin-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/odin-rps" vcs="Git" />
+  </component>
+</project>
