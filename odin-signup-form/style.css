@@ -1,0 +1,146 @@
+/* Modern CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15; /* Improve readability */
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+main {
+    display: block; /* Display main as block element */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    display: block;
+}
+
+button, input, select, textarea {
+    font: inherit; /* Inherit font styles */
+    margin: 0; /* Remove default margin */
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+code, pre {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Remove default styles for figures */
+figure {
+    margin: 0;
+}
+
+blockquote, dl, dd {
+    margin: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 1em 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+    white-space: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin: 0;
+
+}
+
+.page {
+    display: grid;
+    max-width: 60%;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 3px solid #141313;
+}
+
+.form-section {
+    display: grid;
+    grid-column: span 2;
+    grid-template-rows: auto auto auto;
+    gap: 20px; /* Optional: Adds space between rows */
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto; /* Center the section horizontally */
+
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 4rem;
+}
+

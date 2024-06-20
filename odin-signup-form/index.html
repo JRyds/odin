@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project: Sign-up Form</title>
+</head>
+
+<body>
+    <div class="page">
+
+        <section class="img-section">
+            <img src="images/jonny-gios-F-ciLcpEoDc-unsplash.jpg" alt="northern cottage, 
+                                                    windows glowing under a starlit sky">
+
+
+        </section>
+
+        <section class="form-section">
+            <div class="blurb">
+                <p>This is not a real online service! You know you need something
+                    like this in your life to help you realise your dreams.
+                    Signup now to get started!
+                    You know you want to.</p>
+            </div>
+
+            <form action="/submit" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+
+                    <div class="form-group">
+
+                        <div class="form-left">
+                            <label for="name">NAME</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="email">EMAIL:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-right">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="number" id="phone" name="phone" required>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-confirm" name="password-confirm" required>
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+            <div class="button-section">
+                <button type="submit">Create Account</button>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
